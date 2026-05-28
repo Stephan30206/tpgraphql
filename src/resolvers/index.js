@@ -3,7 +3,7 @@ import userResolvers from './userResolvers.js';
 import postResolvers from './postResolvers.js';
 import typeResolvers from './typeResolvers.js';
 
-// Fusionne proprement tous les resolvers
+// Merge resolvers
 const resolvers = mergeResolvers([
   userResolvers,
   postResolvers,

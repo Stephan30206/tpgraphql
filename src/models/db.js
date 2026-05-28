@@ -1,8 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 
 // Singleton Prisma Client
-// Évite plusieurs connexions Prisma en développement avec Nodemon
-
 const globalForPrisma = globalThis;
 
 const prisma =

@@ -9,7 +9,6 @@ import { context } from './context/index.js';
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  // Affiche les erreurs détaillées en développement
   includeStacktraceInErrorResponses: process.env.NODE_ENV !== 'production',
 });
 
